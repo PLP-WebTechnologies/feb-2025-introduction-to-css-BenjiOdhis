@@ -1,0 +1,70 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Card Styling */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* ID Selector for Image */
+#featured-img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 2px solid #aaa;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+/* Form Inputs */
+input, select {
+  padding: 10px;
+  margin: 8px 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Buttons */
+button {
+  background-color: #007acc;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
